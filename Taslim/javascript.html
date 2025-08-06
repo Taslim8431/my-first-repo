@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>javascript</title>
+    </head>
+    <script type="text/javascript">
+        var num1,num2;
+        function add(){
+  num1=document.sonu.n1.value;
+  num2=document.sonu.n2.value;
+ num1=parseFloat(num1);
+ num2=parseFloat(num2);
+ var num3=num1+num2;
+ document.sonu.n3.value=num3;
+        }
+        function sub(){
+  num1=document.sonu.n1.value;
+  num2=document.sonu.n2.value;
+ num1=parseFloat(num1);
+ num2=parseFloat(num2);
+ var num3=num1-num2;
+ document.sonu.n3.value=num3;
+        }
+    </script>
+    <body>
+        <form name="sonu">
+            <lable>
+                number1
+            </lable>
+            <input type="text" name="n1" value=" ">
+            <br>
+            <lable>
+                number2
+            </lable>
+            <input type="text" name="n2" value=" ">
+            <br>
+            <input type="button" value="+" onClick="add()">
+            <input type="button" value="-">
+            <input type="button" value="*">
+            <input type="button" value="%">
+            <lable>result</lable>
+            <input type="text" name="n3" value=" ">
+
+        </form>
+    </body>
+    </html>
+    
